@@ -1,1 +1,0 @@
-# aozamiz.github.io
