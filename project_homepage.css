@@ -1,0 +1,232 @@
+.navbar {
+ background-color: black;
+ position: relative;
+ height: 100px;
+ color: white;
+}
+
+.navbar > .banner-image {
+    display: flex;
+    position: static;
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+    float: left;
+}
+
+.navbar > .items {
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ font-family: "Ubuntu Condensed", sans-serif;
+ color: white;
+ width: 50%;
+}
+
+.navbar > .items .explore {
+    display: flex;
+    justify-content: left;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #cea135;
+    position: static; z-index:-index:5;left:15.5em; top:-2px; 
+}
+
+.navbar > .items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    justify-content:space-between;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.navbar > .items > .items2 {
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.navbar > .items > .items2 > .downChevron i {
+    font-size: 0.8em;
+    margin-left: 10px;
+
+}
+
+.navbar > .items .items3  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.navbar > .items > .items3 > .create {
+    padding: 15px 20px;
+    background-color:   #4b4a4c ;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.navbar > .items > .items3 > .create > .downChevron2 i {
+    color: #4FC67D;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.navbar > .items > .items3 > .lupa {
+    font-size: 1.3em;
+    color:  #79746f;
+}
+
+.navbar > .items > .items3 > .log-in {
+    padding: 15px 15px;
+    background-color:   #4b4a4c ;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navbar > .items > .items3 > .sign-up {
+    padding: 15px 15px;
+    background-color:   #4b4a4c ;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: -550px;
+}
+
+.middleSection {
+    background: linear-gradient(#3b444b, #282a2e, #141414);
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.middleSection > .MainText {
+    position: static;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: -750px;
+}
+
+.middleSection > .MainText2 {
+    position: static;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    margin-right: -210px;
+}
+
+.middleSection >.backgroundImage {
+    float: right;
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 0x;
+    margin-right: 0px;
+    margin-left: -600px;
+
+}
+
+.middleSection > .backgroundImage > .Text2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    line-height: normal;
+    justify-content: left;
+    position: absolute;
+    top: -55px;
+    left: 5px;
+}
+
+.lightblue {
+    color: #68bbde 
+}
+
+.middleSection > .buttons {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 1000px;
+    margin-top: -50px;
+    margin-left: -400px;
+    margin-bottom: 0px;
+    margin-right: 1000px;
+}
+
+
+.middleSection > .buttons > .SignUpForFree {
+    background-color: #4FC67D;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1px 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.middleSection > .buttons > .LearnMore {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1px 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px; 
+}
+
+.footer {
+    background-color: linear-gradient(#3b444b, #282a2e, #141414); 
+    padding: 2em 0;
+    position: absolute;
+    bottom: -98px;
+    width: 100%;
+}
+
+.footer > .elements {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color:  #4b4a4c; 
+    outline: 2px solid grey;
+}
+
